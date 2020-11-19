@@ -1,2 +1,2 @@
 # RazFix
-Fixes Phase Glitch on Lazarus HCF Core.
+Fix Phase Glitch on Lazarus HCF Core.
