@@ -12,7 +12,7 @@ public class RazMain extends JavaPlugin {
     private PhaseGlitchListener phaseglitchHandler;
 
     public void onEnable() {
-		Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "[RazFix] Plugin has been loaded successfully.");
+	Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "[RazFix] Plugin has been loaded successfully.");
         instance = this;    
         this.phaseglitchHandler = new PhaseGlitchListener(this);
         this.phaseglitchHandler.enable();
